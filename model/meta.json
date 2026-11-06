@@ -1,0 +1,118 @@
+{
+  "model": "Gradient Boosting (HistGB)",
+  "threshold": 0.31732775916115347,
+  "low": 0.3,
+  "high": 0.6,
+  "metrics_test": {
+    "ROC-AUC": 0.8845,
+    "PR-AUC": 0.7535,
+    "Accuracy": 0.8068,
+    "Precision": 0.6175,
+    "Recall": 0.7834,
+    "F1": 0.6907
+  },
+  "baseline_test": {
+    "ROC-AUC": 0.5,
+    "PR-AUC": 0.2752,
+    "Accuracy": 0.7248,
+    "Precision": 0.0,
+    "Recall": 0.0,
+    "F1": 0.0
+  },
+  "n_train": 69784,
+  "n_test": 17446,
+  "cancel_rate": 0.2752,
+  "choices": {
+    "hotel": [
+      "City Hotel",
+      "Resort Hotel"
+    ],
+    "meal": [
+      "BB",
+      "FB",
+      "HB",
+      "SC",
+      "Undefined"
+    ],
+    "market_segment": [
+      "Aviation",
+      "Complementary",
+      "Corporate",
+      "Direct",
+      "Groups",
+      "Offline TA/TO",
+      "Online TA",
+      "Undefined"
+    ],
+    "distribution_channel": [
+      "Corporate",
+      "Direct",
+      "GDS",
+      "TA/TO",
+      "Undefined"
+    ],
+    "reserved_room_type": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "L"
+    ],
+    "customer_type": [
+      "Contract",
+      "Group",
+      "Transient",
+      "Transient-Party"
+    ]
+  },
+  "top_countries": [
+    "PRT",
+    "GBR",
+    "FRA",
+    "ESP",
+    "DEU",
+    "ITA",
+    "IRL",
+    "BEL",
+    "BRA",
+    "NLD",
+    "USA",
+    "CHE",
+    "CN",
+    "AUT",
+    "SWE",
+    "CHN",
+    "POL",
+    "RUS",
+    "NOR",
+    "ROU",
+    "FIN",
+    "ISR",
+    "DNK",
+    "AUS",
+    "AGO",
+    "LUX",
+    "MAR",
+    "TUR",
+    "ARG",
+    "HUN",
+    "JPN",
+    "IND",
+    "CZE",
+    "KOR",
+    "GRC",
+    "HRV",
+    "DZA",
+    "EST",
+    "IRN",
+    "ZAF"
+  ],
+  "ranges": {
+    "lead_time_max": 737,
+    "adr_median": 98.2
+  }
+}
