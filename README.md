@@ -2,7 +2,7 @@
 
 **Hotels lose revenue when bookings are cancelled late. This project predicts which bookings will cancel and recommends a deposit policy (none / partial / full) for each risk level.**
 
-🔗 **Live app:** _add your Streamlit Community Cloud link here_  
+   🔗 **Live app:** https://hotel-cancellation-nzgymhyu4cpclvjad7cdze.streamlit.app 
 📓 **Notebook:** [`hotel_cancellation_ml.ipynb`](hotel_cancellation_ml.ipynb)
 
 ![evaluation](figures/04_evaluation.png)
