@@ -1,0 +1,8 @@
+A hotel room that's cancelled at the last minute and never re-sold is lost revenue. In my NextGen Institute ML internship, our team built an app that predicts which bookings will cancel — before they do — and recommends a deposit policy for each one.
+
+• Cleaned and modeled ~87K real hotel bookings, compared 3 algorithms + a baseline with cross-validation
+• Final model catches 78% of cancellations (ROC-AUC 0.88); the high-risk tier (17% of bookings) cancels 77% of the time
+• Biggest lesson: a parking-space field looked like a great feature, but 0% of those bookings ever cancelled — it was only filled for guests who arrived. Spotting that leakage mattered more than any tuning.
+
+Try the live app: [link] · Code: [GitHub link]
+#MachineLearning #DataScience #Hospitality #NextGenInstitute
